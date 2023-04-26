@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "email-js": "^2.0.2",
+    "emailjs-com": "^3.2.0",
+    "mailjs": "^0.1.18"
+  }
+}

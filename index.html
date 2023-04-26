@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
+    <title>Portfólio - Rodrigo Roesler</title>
+    
+    <script src="index.js"></script>
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("TkTquSZYGBsEGTh2l");
+      })();
+    </script>
+</head>
+<body>
+    <header>
+		<nav>
+			<ul>
+				<a href="#">Home</a>
+				<a href="#projects-section">Projetos</a>
+				<a href="#contact">Contato</a>
+			</ul>
+		</nav>
+	</header>
+
+    <section id="container">
+		<div class="section-mim">
+			<h2>Olá, eu sou o Rodrigo !</h2>
+		        <p>Profissional com 08 anos de experiência em apoio administrativo com excelentes habilidades de criação de planilhas e elaboração de relatórios.               
+              Habilitado para desenvolver atividades variadas, desde o cumprimento de objetivos e planejamento do trabalho, implementação, 
+              apuração e controle dos resultados. Possuo extrema facilidade com sistemas de informática.
+              <br> Proficiente no uso do Microsoft Office, Power BI, ERP Plune, Atlassian Jira, OSTicket. Noções de HTML5, CSS3 e Javascript.
+                </p>
+          <div class="curri">
+            <a href="assets/Curriculo.pdf" target="_blank">
+            <button id="curriulo">Ver Currículo</button></a>
+                <div class="contats-img">  
+                    <div id="whatsapp">        
+                      <a href="https://api.whatsapp.com/send?phone=5548991477330" target="_blank">
+                      <img src="assets/whatsapp32.png" alt="WhatsApp">
+                      </a>
+                    </div>
+                    <div id="linkedin">        
+                      <a href="https://www.linkedin.com/in/r-roesler/" target="_blank">
+                      <img src="assets/linkedin32.png" alt="LinkedIn">
+                    </a>
+                    </div>              
+                    <div id="github">        
+                      <a href="https://github.com/rodrigoroesler" target="_blank">
+                      <img src="assets/git32.png" alt="GitHub">
+                      </a>
+                    </div>
+                </div>
+          </div>
+		</div>
+		<div class="section-hab">
+			<h2>Habilidades</h2>
+            <p class="conteudo-secundario-subtiulo">
+                <label for="progress">Proatividade</label><br>
+                <progress id="progress-bar" value="93" max="100"></progress><br>
+                <label for="progress">Trabalho em Equipe</label><br>
+                <progress id="progress-bar" value="90" max="100"></progress><br>
+                <label for="progress">Flexibilidade</label><br>
+                <progress id="progress-bar" value="87" max="100"></progress><br>
+                <label for="progress">Comprometimento</label><br>
+                <progress id="progress-bar" value="82" max="100"></progress><br>
+                <label for="progress">Agilidade e Qualidade</label><br>
+                <progress id="progress-bar" value="80" max="100"></progress><br>
+            </p>			
+		</div>     
+	</section>
+
+    <section id="projects-section">
+        <h2>Projetos</h2>
+        <hr color="#474743">
+        <div class="projects-wrapper">
+
+          <div class="project">
+            <img src="assets/vendas.png" alt="Dashboard de Vendas">
+            <h3>Dashboard de Vendas</h3>
+            <h4><strong>Objetivos e Indicadores</strong></h4>
+            <p>Projeto criado com dados fictícios no Power BI com base em Excel com objetivo de aprendizagem.</p>
+            <p>Relatório contém os seguintes indicadores:</p>
+            <p> Faturamentototal, faturamento mensal, faturamento por vendedor e por região e formas de pagamento.</p><p><p></p></p></p>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiNGRiNDBhZjUtYTc5Zi00YzI3LTgyNjUtZGI2ZmE1NDE3NzBiIiwidCI6ImJkMzI2YjFmLTAzNWEtNGM4My05MTRmLTQyMzkxNGNhN2E2ZCJ9" target="_blank">Detalhes</a>
+          </div>
+
+          <div class="project">
+            <img src="assets/compras.png" alt="Dashboard de Compras">
+            <h3>Dashboard de Compras</h3>
+            <h4><strong>Objetivos e Indicadores</strong></h4>  
+            <p>Projeto criado com dados fictícios no Power BI com base em Excel com objetivo de aprendizagem.</p>
+            <p>Relatório contém os seguintes indicadores:</p>               
+            <p>Custo com desconto, Lead Time de compra, atraso na entrega, Lead de despacho, custo e Saving mensal.</p>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiY2IzYzdjMjktMDVkYi00N2ZmLThjYzItOTQwODc0OWU4MWY5IiwidCI6ImJkMzI2YjFmLTAzNWEtNGM4My05MTRmLTQyMzkxNGNhN2E2ZCJ9" target="_blank">Detalhes</a>
+          </div>
+          <div class="project">
+            <img src="assets/rh.png" alt="Dashboard de RH">
+            <h3>Dashboard de RH</h3>
+            <h4><strong>Objetivos e Indicadores</strong></h4>
+            <p>Projeto criado com dados fictícios no Power BI com base em Excel com objetivo de aprendizagem.</p>
+            <p>Relatório contém os seguintes indicadores:</p> 
+            <p>Número de contratações, funcionários ativos, demissões e Turnover. </p> <p></p></p></p><p></p>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMzFhMmU0NDYtNDhjMC00YmYzLTlhMDktMDJmMmU5N2M1MTM5IiwidCI6ImJkMzI2YjFmLTAzNWEtNGM4My05MTRmLTQyMzkxNGNhN2E2ZCJ9" target="_blank">Detalhes</a>
+          </div>
+          <div class="project">
+            <img src="assets/fluxo.png" alt="Dashboard de Fluxo de Caixa">
+            <h3>Dashboard de Fluxo de Caixa</h3>
+            <h4><strong>Objetivos e Indicadores</strong></h4>
+            <p>Projeto criado com dados fictícios no Power BI com base em Excel com objetivo de aprendizagem.</p>
+            <p>Relatório contém os seguintes indicadores:</p> 
+            <p>Saldo, saldo inicial, saldo final, saldo por mês, entradas, saídas, despesas por tipo e margem.</p> 
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiN2VhM2FiYjUtOTk1MC00OGZmLTk2MDMtZGI3MmI1ZGVjNWE4IiwidCI6ImJkMzI2YjFmLTAzNWEtNGM4My05MTRmLTQyMzkxNGNhN2E2ZCJ9" target="_blank">Detalhes</a>
+          </div>
+          <div class="project">
+            <img src="assets/investimentos.png" alt="Dashboard de Investimentos">
+            <h3>Dashboard de Investimentos</h3>
+            <h4><strong>Objetivos e Indicadores</strong></h4>
+            <p>Projeto criado com dados fictícios no Power BI com base em Excel com objetivo de aprendizagem.</p>
+            <p>Relatório contém os seguintes indicadores:</p> 
+            <p>Total investido, total de proventos recebidos, total atual e porcentagem de valorização.</p>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiZDVmNzk5ODEtMzRlNC00ZTQwLTlkZTUtMjIwYWQ4MWEwMWI5IiwidCI6ImJkMzI2YjFmLTAzNWEtNGM4My05MTRmLTQyMzkxNGNhN2E2ZCJ9" target="_blank">Detalhes</a>
+          </div>         
+        </div>
+    </section>  
+
+    <section id="contact">    
+      <h1>Contato</h1>
+      <hr color="#474743">
+      <div class="form">
+        <h5 for="name">Nome</h5>
+        <input type="text" class="form-control" id="name" placeholder="Digite seu nome" required/>
+      </div>
+      <div class="form">
+        <h5 for="name">Telefone</h5>
+        <input type="text" class="form-control" id="phone" placeholder="Digite seu telefone" required/>
+      </div>
+      <div class="form">
+        <h5 for="email">Email</h5>
+        <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required/>
+      </div>
+      <div class="form">
+        <h5 for="message">Mensagem</h5>
+        <textarea class="form-control" id="message" rows="15"></textarea>
+      </div>
+      <button id="botao-contact" onclick="sendMail()">Enviar</button>
+    </div>
+  </div>
+</div>
+</section>
+<footer>
+  Desenvolvido por Rodrigo Roesler &copy;	
+</footer>
+<a href="#" class="btn"></a>
+</body>
+</html>
