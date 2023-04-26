@@ -216,7 +216,7 @@ nav a:hover {
     overflow: hidden;
     background-color: #c0c0c0;
     box-shadow: 2px 2px 15px #555555; 
-    gap: 50px;
+    gap: 100px;
     margin-bottom: 0px;
   }
     .project img {
