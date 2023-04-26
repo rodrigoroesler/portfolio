@@ -122,7 +122,7 @@ nav a:hover {
     box-shadow: 2px 2px 15px #555555; 
     overflow: hidden;
     text-align: justify;
-    padding: 0px;    
+    padding: 0px;        
 }
 .section-mim h2 {
   padding: 10px;
@@ -173,7 +173,10 @@ nav a:hover {
     padding-top: 10px; 
     border-radius: 10px;
     box-shadow: 2px 2px 15px #555555;     
-    padding: 3px;   
+    padding: 3px;
+    margin-top: 50px;
+
+       
 }
 .section-hab h2 {
   padding: 10px;
