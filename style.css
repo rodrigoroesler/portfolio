@@ -116,7 +116,7 @@ nav a:hover {
 .section-mim {
     max-width: 700px;
     min-width: 250px;   
-    min-height: 350px;     
+    min-height: 400px;     
     width: 80%;
     border-radius: 10px;
     box-shadow: 2px 2px 15px #555555; 
@@ -167,6 +167,7 @@ nav a:hover {
 }
 .section-hab {
     max-width: 400px; 
+    min-width: 250px;
     width: 100%;
     border-radius: 10px;
     overflow: hidden;  
@@ -213,7 +214,7 @@ nav a:hover {
     margin-top: 30px; 
   }  
   .project {
-    max-width: 450px;  
+    max-width: 460px;  
     border-radius: 10px;
     overflow: hidden;
     background-color: #c0c0c0;
