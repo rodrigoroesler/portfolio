@@ -144,12 +144,12 @@ Grandes telas: acima de 1201px
         box-shadow: 2px 2px 15px #555555;           
     }
     .section-hab h2 {
-    padding: 10px;
-    text-align: center;
-    color: #000000;
-    font-family: 'Righteous', cursive;
-    font-weight: 100;
-    font-size: 2em;
+        padding: 10px;
+        text-align: center;
+        color: #000000;
+        font-family: 'Righteous', cursive;
+        font-weight: 100;
+        font-size: 2em;
     }
     .section-hab p {
         font-size: 1.2rem;
@@ -159,77 +159,77 @@ Grandes telas: acima de 1201px
         font-family: 'Poppins', sans-serif;   
     }
     #progress-bar {
-    width: 250px;
-    height: 15px;
+        width: 250px;
+        height: 15px;
     }
 
     /* PROJETOS */
 
     #projects-section {
-    text-align: center;
-    justify-content: space-between;
-    background-color: #c0c0c0;
-    padding-bottom: 50px;
-    width: 100%;
+        text-align: center;
+        justify-content: space-between;
+        background-color: #c0c0c0;
+        padding-bottom: 50px;
+        width: 100%;
     }  
     .projects-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 30px; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 30px; 
     }  
     .project {
-    max-width: 350px;  
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #c0c0c0;
-    box-shadow: 2px 2px 15px #555555; 
-    gap: 50px;
-    margin-bottom: 0px;
+        max-width: 350px;  
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #c0c0c0;
+        box-shadow: 2px 2px 15px #555555; 
+        gap: 50px;
+        margin-bottom: 50px;
     }
     .project img {
-    width: 100%;
-    height: 250px;
-    object-position: center;    
+        width: 100%;
+        height: 250px;
+        object-position: center;    
     }  
     #projects-section h2 {
-    font-size: 2.5em;
-    padding: 20px 25px;
-    font-family: 'Righteous', cursive;
-    font-weight: 100;
-    color: #474743;  
+        font-size: 2.5em;
+        padding: 20px 25px;
+        font-family: 'Righteous', cursive;
+        font-weight: 100;
+        color: #474743;  
     }
     hr {
-    width: 280px;
-    margin: auto;
-    color: #c0c0c0;
+        width: 280px;
+        margin: auto;
+        color: #c0c0c0;
     }  
     .project p {
-    text-align: center;
-    padding: 3px 10px;
+        text-align: center;
+        padding: 3px 10px;
     }  
     .project a {
-    display: inline-block;
-    justify-content: end;
-    align-items: end;
-    margin-top: 20px;
-    padding: 8px 40px;
-    border-radius: 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    transition: background-color 0.5s ease;
-    -webkit-transition: background-color 0.5s ease-out;
-    -moz-transition: background-color 0.5s ease-out;
-    -o-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
-    margin-bottom: 20px;
-    width: 180px;
+        display: inline-block;
+        justify-content: end;
+        align-items: end;
+        margin-top: 20px;
+        padding: 8px 40px;
+        border-radius: 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        transition: background-color 0.5s ease;
+        -webkit-transition: background-color 0.5s ease-out;
+        -moz-transition: background-color 0.5s ease-out;
+        -o-transition: background-color 0.5s ease-out;
+        transition: background-color 0.5s ease-out;
+        margin-bottom: 20px;
+        width: 180px;
     }  
     .project a:hover {
-    color: #ffffff;
-    background-color: #3D7AD6;
+        color: #ffffff;
+        background-color: #3D7AD6;
     }
 /* CONTATO */
 
@@ -272,7 +272,8 @@ Grandes telas: acima de 1201px
     text-align: center;
     margin: 0;
     border-radius: 5px;
-    width: 348px;
+    min-width: 350px;
+    width: 70%;
     height: 50px;
     margin-top: 25px;
     margin-bottom: 60px;
@@ -342,6 +343,10 @@ Grandes telas: acima de 1201px
 
 
 
+
+
+
+
 /* CELULARES */
 @media screen and (min-width: 600px) and (max-width: 857px) { 
     /* CABECALHO  */    
@@ -378,6 +383,7 @@ Grandes telas: acima de 1201px
         color: #000000;
         transition-duration: 0.5s;
     }
+
     /* CONTEUDO */ 
     #container {
         display: flex;
@@ -400,15 +406,16 @@ Grandes telas: acima de 1201px
         border-radius: 10px;
         box-shadow: 2px 2px 15px #555555; 
         overflow: hidden;
-        text-align: justify;     
+        text-align: justify;   
+        margin-bottom: 50px;  
     }
     .section-mim h2 {
-      padding: 10px;
-      text-align: center;
-      color: #000000;
-      font-family: 'Righteous', cursive;
-      font-weight: 100;
-      font-size: 2em;
+        padding: 10px;
+        text-align: center;
+        color: #000000;
+        font-family: 'Righteous', cursive;
+        font-weight: 100;
+        font-size: 2em;
     }
     .section-mim p {
         text-align: justify;
@@ -464,7 +471,7 @@ Grandes telas: acima de 1201px
     .whatsapp-button:hover {
         background-color: #159c59;
         transition-duration: 0.5s;
-    }    
+    }
 
     .section-hab {
         max-width: 450px;
@@ -483,12 +490,12 @@ Grandes telas: acima de 1201px
         box-shadow: 2px 2px 15px #555555;           
     }
     .section-hab h2 {
-      padding: 10px;
-      text-align: center;
-      color: #000000;
-      font-family: 'Righteous', cursive;
-      font-weight: 100;
-      font-size: 2em;
+        padding: 10px;
+        text-align: center;
+        color: #000000;
+        font-family: 'Righteous', cursive;
+        font-weight: 100;
+        font-size: 2em;
     }
     .section-hab p {
         font-size: 1.2rem;
@@ -498,135 +505,134 @@ Grandes telas: acima de 1201px
         font-family: 'Poppins', sans-serif;   
     }
     #progress-bar {
-      width: 250px;
-      height: 15px;
+        width: 250px;
+        height: 15px;
     }
 
 /* PROJETOS */
+    #projects-section {
+        text-align: center;
+        justify-content: space-between;
+        background-color: #c0c0c0;
+        padding-bottom: 50px;
+        width: 100%;
+    }  
+    .projects-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 30px; 
+    }  
+    .project {
+        max-width: 450px;  
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #c0c0c0;
+        box-shadow: 2px 2px 15px #555555; 
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+    .project img {
+        width: 100%;
+        height: 250px;
+        object-position: center;    
+    }  
+    #projects-section h2 {
+        font-size: 2.5em;
+        padding: 20px 25px;
+        font-family: 'Righteous', cursive;
+        font-weight: 100;
+        color: #474743;  
+    }
+    hr {
+        width: 280px;
+        margin: auto;
+        color: #c0c0c0;
+    }  
+    .project p {
+        text-align: center;
+        padding: 3px 10px;
+    }  
+    .project a {
+        display: inline-block;
+        justify-content: end;
+        align-items: end;
+        margin-top: 20px;
+        padding: 8px 40px;
+        border-radius: 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        transition: background-color 0.5s ease;
+        -webkit-transition: background-color 0.5s ease-out;
+        -moz-transition: background-color 0.5s ease-out;
+        -o-transition: background-color 0.5s ease-out;
+        transition: background-color 0.5s ease-out;
+        margin-bottom: 20px;
+        width: 180px;
+    }  
+    .project a:hover {
+        color: #ffffff;
+        background-color: #3D7AD6;
+    }
+    /* CONTATO */
 
-
-#projects-section {
-    text-align: center;
-    justify-content: space-between;
-    background-color: #c0c0c0;
-    padding-bottom: 50px;
-    width: 100%;
-}  
-.projects-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 30px; 
-}  
-.project {
-    max-width: 450px;  
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #c0c0c0;
-    box-shadow: 2px 2px 15px #555555; 
-    gap: 50px;
-    margin-bottom: 0px;
-}
-.project img {
-    width: 100%;
-    height: 250px;
-    object-position: center;    
-}  
- #projects-section h2 {
-  font-size: 2.5em;
-  padding: 20px 25px;
-  font-family: 'Righteous', cursive;
-  font-weight: 100;
-  color: #474743;  
-}
-hr {
-    width: 280px;
-    margin: auto;
-    color: #c0c0c0;
-}  
-.project p {
-    text-align: center;
-    padding: 3px 10px;
-}  
-.project a {
-    display: inline-block;
-    justify-content: end;
-    align-items: end;
-    margin-top: 20px;
-    padding: 8px 40px;
-    border-radius: 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    transition: background-color 0.5s ease;
-    -webkit-transition: background-color 0.5s ease-out;
-    -moz-transition: background-color 0.5s ease-out;
-    -o-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
-    margin-bottom: 20px;
-    width: 180px;
-}  
-.project a:hover {
-    color: #ffffff;
-    background-color: #3D7AD6;
-}
-/* CONTATO */
-
-#contact {
-    background-color: #3D7AD6;
-    width: 100%;
-    text-align: center;
-}
-.form input{
-    min-width: 350px;
-    width: 70%;
-    height: 30px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 3px 5px 10px #474743;
-    padding: 10px;
-}
-.form textarea{
-    min-width: 350px;
-    width: 70%;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 3px 5px 10px #474743;
-}
-#contact h1 {
-    font-size: 2.5em;
-    padding: 25px 0px;
-    font-family: 'Righteous', cursive;
-    font-weight: 100;
-    color: white;
-}
-.form h5 {
-    font-size: 1em;
-    margin: 5px;
-    margin-top: 30px;
-    color: white;
-    font-weight: 500;
-}
-#botao-contact {
-    text-align: center;
-    margin: 0;
-    border-radius: 5px;
-    width: 348px;
-    height: 50px;
-    margin-top: 25px;
-    margin-bottom: 60px;
-    box-shadow: 3px 5px 10px #474743;
-    border: none;
-    padding: 10px;
-    background: #ffffff;
-    transition: background-color 1s ease;
-    transition: background-color 1s ease-out;
-        -webkit-transition: background-color 1s ease-out;
-        -webkit-transition: background-color 1s ease;
-        -moz-transition: background-color 1s ease-out;
-        -o-transition: background-color 1.3s ease-out;
-}
+    #contact {
+        background-color: #3D7AD6;
+        width: 100%;
+        text-align: center;
+    }
+    .form input{
+        min-width: 350px;
+        width: 70%;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 3px 5px 10px #474743;
+        padding: 10px;
+    }
+    .form textarea{
+        min-width: 350px;
+        width: 70%;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 3px 5px 10px #474743;
+    }
+    #contact h1 {
+        font-size: 2.5em;
+        padding: 25px 0px;
+        font-family: 'Righteous', cursive;
+        font-weight: 100;
+        color: white;
+    }
+    .form h5 {
+        font-size: 1em;
+        margin: 5px;
+        margin-top: 30px;
+        color: white;
+        font-weight: 500;
+    }
+    #botao-contact {
+        text-align: center;
+        margin: 0;
+        border-radius: 5px;
+        min-width: 350px;
+        width: 70%;
+        height: 50px;
+        margin-top: 25px;
+        margin-bottom: 60px;
+        box-shadow: 3px 5px 10px #474743;
+        border: none;
+        padding: 10px;
+        background: #ffffff;
+        transition: background-color 1s ease;
+        transition: background-color 1s ease-out;
+            -webkit-transition: background-color 1s ease-out;
+            -webkit-transition: background-color 1s ease;
+            -moz-transition: background-color 1s ease-out;
+            -o-transition: background-color 1.3s ease-out;
+    }
 .whatsapp-button {
     display: inline-block;
     background-color: #25d366;
@@ -679,6 +685,8 @@ hr {
   }
 }
   
+
+
 
 
 /* DESKTOP */
@@ -745,13 +753,13 @@ hr {
         text-align: justify;     
     }
     .section-mim h2 {
-      padding: 10px;
-      text-align: center;
-      color: #000000;
-      font-family: 'Righteous', cursive;
-      font-weight: 100;
-      font-size: 2em;
-    }
+        padding: 10px;
+        text-align: center;
+        color: #000000;
+        font-family: 'Righteous', cursive;
+        font-weight: 100;
+        font-size: 2em;
+        }
     .section-mim p {
         text-align: justify;
         padding: 20px 15px;
@@ -762,7 +770,7 @@ hr {
         display: flex;
         gap: 15px;
         padding: 0px;
-        padding: 5px 15px;
+        padding: 10px 15px;
         justify-content: end;  
     }
     .contats-img #whatsapp img:hover {
@@ -814,9 +822,6 @@ hr {
         min-width: 200px;  
         min-height: 380px;
         height: 380px;  
-
-
-
         width: 100%;
         border-radius: 10px;
         overflow: hidden;  
@@ -839,187 +844,184 @@ hr {
         font-family: 'Poppins', sans-serif;   
     }
     #progress-bar {
-      width: 250px;
-      height: 15px;
+        width: 250px;
+        height: 15px;
     }
 
 
 /* PROJETOS */
-
-
-#projects-section {
-    text-align: center;
-    justify-content: space-between;
-    background-color: #c0c0c0;
-    padding-bottom: 50px;
-    width: 100%;
-}  
-.projects-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 30px; 
-}  
-.project {
-    max-width: 450px;  
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #c0c0c0;
-    box-shadow: 2px 2px 15px #555555; 
-    gap: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    #projects-section {
+        text-align: center;
+        justify-content: space-between;
+        background-color: #c0c0c0;
+        padding-bottom: 50px;
+        width: 100%;
+    }  
+    .projects-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 30px; 
+    }  
+    .project {
+        max-width: 450px;  
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #c0c0c0;
+        box-shadow: 2px 2px 15px #555555; 
+        gap: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .project img {
+        width: 100%;
+        height: 250px;
+        object-position: center;    
+    }  
+    #projects-section h2 {
+        font-size: 2.5em;
+        padding: 20px 25px;
+        font-family: 'Righteous', cursive;
+        font-weight: 100;
+        color: #474743;  
 }
-.project img {
-    width: 100%;
-    height: 250px;
-    object-position: center;    
-}  
- #projects-section h2 {
-  font-size: 2.5em;
-  padding: 20px 25px;
-  font-family: 'Righteous', cursive;
-  font-weight: 100;
-  color: #474743;  
-}
-hr {
-    width: 280px;
-    margin: auto;
-    color: #c0c0c0;
-}  
-.project p {
-    text-align: center;
-    padding: 3px 10px;
-}  
-.project a {
-    display: inline-block;
-    justify-content: end;
-    align-items: end;
-    margin-top: 20px;
-    padding: 8px 40px;
-    border-radius: 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    transition: background-color 0.5s ease;
-    -webkit-transition: background-color 0.5s ease-out;
-    -moz-transition: background-color 0.5s ease-out;
-    -o-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
-    margin-bottom: 20px;
-    width: 180px;
-}  
-.project a:hover {
-    color: #ffffff;
-    background-color: #3D7AD6;
-}
+    hr {
+        width: 280px;
+        margin: auto;
+        color: #c0c0c0;
+    }  
+    .project p {
+        text-align: center;
+        padding: 3px 10px;
+    }  
+    .project a {
+        display: inline-block;
+        justify-content: end;
+        align-items: end;
+        margin-top: 20px;
+        padding: 8px 40px;
+        border-radius: 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        transition: background-color 0.5s ease;
+        -webkit-transition: background-color 0.5s ease-out;
+        -moz-transition: background-color 0.5s ease-out;
+        -o-transition: background-color 0.5s ease-out;
+        transition: background-color 0.5s ease-out;
+        margin-bottom: 20px;
+        width: 180px;
+    }  
+    .project a:hover {
+        color: #ffffff;
+        background-color: #3D7AD6;
+    }
 
 /* CONTATO */
+    #contact {
+        background-color: #3D7AD6;
+        width: 100%;
+        text-align: center;
+    }
+    .form input{
+        min-width: 350px;
+        width: 70%;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 3px 5px 10px #474743;
+        padding: 10px;
+    }
+    .form textarea{
+        min-width: 350px;
+        width: 70%;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 3px 5px 10px #474743;
+    }
+    #contact h1 {
+        font-size: 2.5em;
+        padding: 25px 0px;
+        font-family: 'Righteous', cursive;
+        font-weight: 100;
+        color: white;
+    }
+    .form h5 {
+        font-size: 1em;
+        margin: 5px;
+        margin-top: 30px;
+        color: white;
+        font-weight: 500;
+    }
+    #botao-contact {
+        text-align: center;
+        margin: 0;
+        border-radius: 5px;
+        width: 70%;
+        height: 50px;
+        margin-top: 25px;
+        margin-bottom: 60px;
+        box-shadow: 3px 5px 10px #474743;
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        background: #ffffff;
+        transition: background-color 1s ease;
+        transition: background-color 1s ease-out;
+            -webkit-transition: background-color 1s ease-out;
+            -webkit-transition: background-color 1s ease;
+            -moz-transition: background-color 1s ease-out;
+            -o-transition: background-color 1.3s ease-out;
+    }
+    .whatsapp-button {
+        display: inline-block;
+        background-color: #25d366;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 20px;
+        transition: background-color 0.5s ease;
+        transition: background-color 0.5s ease-out;
+    }
+    #botao-contact:hover {
+        color: #fff;
+        background-color: #474743;
+        cursor: pointer;
+        transition: background-color 0.5s ease;
+    }  
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 10px;
+        right: 5px;
+        width: 50px;
+        height: 50px;
+        text-decoration: none;
+        border-radius: 50%;  
+    }
+    .btn::after {
+        content: url('assets/btn-top.png');
+        font-size: 12px;
+        font-weight: bold;
+        color: aliceblue;
+        transition: margin-top 250ms;
+    }
+    .btn:hover::after {
+        margin-top:-8px;
+    }
 
-  #contact {
-    background-color: #3D7AD6;
-    width: 100%;
-    text-align: center;
-}
-.form input{
-    min-width: 350px;
-    width: 70%;
-    height: 30px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 3px 5px 10px #474743;
-    padding: 10px;
-}
-.form textarea{
-    min-width: 350px;
-    width: 70%;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 3px 5px 10px #474743;
-}
-#contact h1 {
-    font-size: 2.5em;
-    padding: 25px 0px;
-    font-family: 'Righteous', cursive;
-    font-weight: 100;
-    color: white;
-}
-.form h5 {
-    font-size: 1em;
-    margin: 5px;
-    margin-top: 30px;
-    color: white;
-    font-weight: 500;
-}
-#botao-contact {
-    text-align: center;
-    margin: 0;
-    border-radius: 5px;
-    width: 70%;
-    height: 50px;
-    margin-top: 25px;
-    margin-bottom: 60px;
-    box-shadow: 3px 5px 10px #474743;
-    border-radius: 5px;
-    border: none;
-    padding: 10px;
-    background: #ffffff;
-    transition: background-color 1s ease;
-    transition: background-color 1s ease-out;
-        -webkit-transition: background-color 1s ease-out;
-        -webkit-transition: background-color 1s ease;
-        -moz-transition: background-color 1s ease-out;
-        -o-transition: background-color 1.3s ease-out;
-}
-.whatsapp-button {
-    display: inline-block;
-    background-color: #25d366;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 20px;
-    transition: background-color 0.5s ease;
-    transition: background-color 0.5s ease-out;
-}
-#botao-contact:hover {
-    color: #fff;
-    background-color: #474743;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-}  
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 10px;
-    right: 5px;
-    width: 50px;
-    height: 50px;
-    text-decoration: none;
-    border-radius: 50%;  
-}
-.btn::after {
-    content: url('assets/btn-top.png');
-    font-size: 12px;
-    font-weight: bold;
-    color: aliceblue;
-    transition: margin-top 250ms;
-}
-.btn:hover::after {
-    margin-top:-8px;
-  }
-
-/* RODAPÉ */
-  footer {
-    margin: auto;
-    margin-top: 0px;
-    background: #474743;
-    color: #ffffff;
-    padding: 15px;
-    text-align: center;
-    font-size: 0.8em;
-  }
+    /* RODAPÉ */
+    footer {
+        margin: auto;
+        margin-top: 0px;
+        background: #474743;
+        color: #ffffff;
+        padding: 15px;
+        text-align: center;
+        font-size: 0.8em;
+    }
 }
