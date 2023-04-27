@@ -67,7 +67,8 @@ Grandes telas: acima de 1201px
         border-radius: 10px;
         box-shadow: 2px 2px 15px #555555; 
         overflow: hidden;
-        text-align: justify;     
+        text-align: justify;
+        margin-bottom: 50px;  
     }
     .section-mim h2 {
     padding: 10px;
