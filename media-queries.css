@@ -571,6 +571,112 @@ hr {
     color: #ffffff;
     background-color: #3D7AD6;
 }
+/* CONTATO */
+
+#contact {
+    background-color: #3D7AD6;
+    width: 100%;
+    text-align: center;
+}
+.form input{
+    min-width: 350px;
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 5px 10px #474743;
+    padding: 10px;
+}
+.form textarea{
+    min-width: 350px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px #474743;
+}
+#contact h1 {
+    font-size: 2.5em;
+    padding: 25px 0px;
+    font-family: 'Righteous', cursive;
+    font-weight: 100;
+    color: white;
+}
+.form h5 {
+    font-size: 1em;
+    margin: 5px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 500;
+}
+#botao-contact {
+    text-align: center;
+    margin: 0;
+    border-radius: 5px;
+    width: 348px;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    box-shadow: 3px 5px 10px #474743;
+    border: none;
+    padding: 10px;
+    background: #ffffff;
+    transition: background-color 1s ease;
+    transition: background-color 1s ease-out;
+        -webkit-transition: background-color 1s ease-out;
+        -webkit-transition: background-color 1s ease;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1.3s ease-out;
+}
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease-out;
+}
+#botao-contact:hover {
+    color: #fff;
+    background-color: #474743;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}  
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 50%;  
+}
+.btn::after {
+    content: url('assets/btn-top.png');
+    font-size: 12px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+.btn:hover::after {
+    margin-top:-8px;
+  }
+
+/* RODAPÉ */
+  footer {
+    margin: auto;
+    margin-top: 0px;
+    background: #474743;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.8em;
+  }
 }
   
 
