@@ -165,7 +165,6 @@ Grandes telas: acima de 1201px
 
     /* PROJETOS */
 
-
     #projects-section {
     text-align: center;
     justify-content: space-between;
@@ -572,35 +571,10 @@ hr {
     color: #ffffff;
     background-color: #3D7AD6;
 }
-
-
-
 }
   
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 /* DESKTOP */
 @media screen and (min-width: 858px) and (max-width: 2500px) { 
 
