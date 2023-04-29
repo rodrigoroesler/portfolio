@@ -169,7 +169,7 @@ Grandes telas: acima de 1201px
     #projects-section {
         text-align: center;
         justify-content: space-between;
-        background-color: #c0c0c0;
+        background-color: #eeeeee;
         padding-bottom: 50px;
         width: 100%;
     }  
@@ -186,8 +186,8 @@ Grandes telas: acima de 1201px
         overflow: hidden;
         background-color: #c0c0c0;
         box-shadow: 2px 2px 15px #555555; 
-        gap: 50px;
-        margin-bottom: 50px;
+        gap: 50px;        
+        margin-bottom: 30px;
     }
     .project img {
         width: 100%;
@@ -195,7 +195,7 @@ Grandes telas: acima de 1201px
         object-position: center;    
     }  
     #projects-section h2 {
-        font-size: 2.5em;
+        font-size: 2em;
         padding: 20px 25px;
         font-family: 'Righteous', cursive;
         font-weight: 100;
@@ -207,8 +207,9 @@ Grandes telas: acima de 1201px
         color: #c0c0c0;
     }  
     .project p {
-        text-align: center;
-        padding: 3px 10px;
+        text-align: justify;
+        padding: 1px 10px;
+        font-size: 0.9em;
     }  
     .project a {
         display: inline-block;
